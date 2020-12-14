@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactanos</title>
+  <link rel="stylesheet" href="./estilosr2.css">
+</head>
+<body>    
+  <main>
+    <section>
+      <form>
+        <h3>Formulario de contacto</h3>
+        <label for="nombres">Nombres Completos</label>
+        <br>
+        <input 
+          type="text"
+          placeholder="Mariana"
+          id="nombres"
+          value=""
+          minlength="7"  
+          size="40"      
+        > 
+        <br>
+        <label for="apellidos">Apellidos Completos</label>
+        <br>
+        <input
+          type="text"
+          placeholder="Perez Sanchez"
+          id="apellidos"
+          minlength="7"       
+          size="40" 
+        >
+        <br>
+        <label>Correo Electrónico:</label>
+        <br>
+        <input
+          type="email"
+          placeholder="ingresa un correo valido"    
+          size="40"      
+        > 
+        <br>
+        
+        <label>Mensaje:</label>
+        <br>
+        <textarea 
+        rows="10" 
+        cols="42"
+        pattern="[A-Z a-z 0-9]{20,140}" 
+        placeholder="aqui ingresa tu mensaje"
+        ></textarea>
+        <br>        
+        <button class="button" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
